@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma mais</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <style>
+        nav {
+            background-image: url(forma\ +.png);
+            height: 400px;
+        }
+        
+        #logo {
+            height: 180px;
+        }
+        
+        nav ul a {
+            color: black;
+            font-size: 20px;
+            padding-top: 25px;
+            margin-top: 25px;
+            margin-top: 25px;
+            font-weight: 600;
+        }
+
+        
+
+       
+
+        .page-footer{
+            background-color: rgb(11, 204, 204);
+        }
+          
+        .texto{
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+
+    <!--Barra de navegação-->
+    <nav>
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo">
+                <img id="logo" src=""></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="file:///C:/Users/Dell/Desktop/projetos/.vscode/forma%20mais/index.html">Área do aluno</a></li>
+                <li><a href="https://www.instagram.com/forma_mais/?next=%2F" >Agende seu horário</a></li>
+                <li><a href="https://www.google.com.br/maps/place/Paudalho,+PE,+55825-000/@-7.8957139,-35.194474,14z/data=!3m1!4b1!4m5!3m4!1s0x7ab0a2bb8179129:0x2ef3298896b68c7a!8m2!3d-7.8990984!4d-35.1731826?hl=pt-BR">Localização</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Final da barra de navegação -->
+
+    <!-- cards-->
+    <div>
+
+        <div class="row">
+            <!--card 1-->
+
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="jump.jpg">
+                        <span class="card-title"><b>JUMP</b></span>
+                    </div>
+                    <div class="card-content">
+                        <p>A aula de Jump emagrece e combate a celulite porque gasta muitas calorias e tonifica as pernas e os glúteos, combatendo a gordura localizada que dá origem à celulite. Numa aula de 45 minutos de Jump é possível perder até 600 calorias.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://www.instagram.com/forma_mais/?next=%2F">SAIBA MAIS SOBRE O JUMP</a>
+                    </div>
+                </div>
+            </div>
+            <!--card 2-->
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="musculacao.jpg">
+                        <span class="card-title"><b>MUSCULAÇÃO</b></span>
+                    </div>
+                    <div class="card-content">
+                        <p>A musculação é uma reunião de exercícios aeróbicos com o intuito de trazer hipertrofia, ou seja, aumentar a massa corporal. Para isso são usados equipamentos para forçar os músculos, que geram contrações. O treino é praticado para fins estéticos, para melhorar a saúde ou para melhorar o desempenho de atletas..</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://www.instagram.com/forma_mais/?next=%2F"> SAIBA MAIS SOBRE A MUSCULAÇÃO</a>
+                    </div>
+                </div>
+            </div>
+            <!--Card 3-->
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="hidro.jpg">
+                        <span class="card-title"><B>HIDROGINÁSTICA</B></span>
+                    </div>
+                    <div class="card-content">
+                        <p>A hidroginástica melhora a força muscular, resistência, flexibilidade e equilíbrio. Comparada a exercícios terrestres, reduz o impacto sobre articulações e apresenta menor risco de lesões. Bom, né? Por tudo isso, a prática é recomendada para melhorar a capacidade motora funcional e independência da população idosa.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://www.instagram.com/forma_mais/?next=%2F">SAIBA MAIS SOBRE A HIDROGINÁSTICA</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Rodape-->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="texto">Forma +</h5>
+                    <p class="texto">Seu corpo de forma + saudável!</p>
+                </div>
+            </div>
+        </div>
+        <!-- Rodape 2-->
+        <div class="footer-copyright">
+            <div class="container">
+                © 2022 todos direitos reservados por mim.
+                
+                
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
