@@ -1,0 +1,19 @@
+#resultado{
+    background-color: beige;
+    width: 207px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color:black;
+    text-align: right;
+    padding: 5px;
+   }
+.body{
+
+background-color: aquamarine;
+}
+   .botao{
+background-color: aqua;
+border-radius: 5;
+
+   }

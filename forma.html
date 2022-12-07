@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<h1>ACADEMIA FORMA MAIS</h1>
+<h2> MEU ESPAÇO DE TREINO </h2>
+<H3> Consulte abaixo o treino preescrito pelo seu personal: </H3>
+<body>
+    <div class = fundo>
+        
+    </div>
+
+<DIV class = treino>
+    <p id= "resultado"> </p>
+
+    <table>
+        <tr>
+            <h1><b> Treino de perna </b></h1>
+            <td ><button  class="botao"onclick = "insert('12x3')" >Extensora</button></td>
+            <td><button class="botao"onclick= "insert('15x3')">Adutora</button></td>
+            <td><button class="botao"onclick= "insert('12x3')">Agachamento</button></td>
+            <td><button class="botao"onclick= "insert('15x3')">Flexora</button></td>
+             <td><button class="botao"onclick= "insert('12x3')">Leg 45</button></td>
+             <tr>
+                <table>
+                <p><h2><b>treino de braço</b> </h2></p>
+             <td><button class="botao"onclick= "insert('12x3')">supino reto</button></td>
+             <td><button class="botao"onclick= "insert('12x3')">remada</button></td>
+             <td><button class="botao"onclick= "insert('10x3)">fly</button></td>
+            
+            <td><button class="botao"onclick= "insert('10x3')">puxada</button></td>
+    
+            </tr>
+            </tr>
+             </tr>
+            </tr>
+        </tr>
+    </table>
+</table>
+<div>
+    <script>
+        function insert (num) 
+      {
+       var  numero = document.getElementById("resultado").innerHTML ;
+       document.getElementById("resultado").innerHTML =  numero + num;
+
+
+
+      }
+      function clean()
+      {
+        document.getElementById("resultado").innerHTML = "";
+      }
+      function back()
+      {
+        var resultado = document.getElementById("resultado").innerHTML;
+        document.getElementById("resultado").innerHTML = resultado.substring(0, resultado.length -1);
+
+      }
+      function calcular()
+      {
+        var resultado = document.getElementById("resultado").innerHTML;
+        if(resultado)
+        {
+            document.getElementById("resultado").innerHTML = eval(resultado);
+        }
+
+        function removermensagem() {
+        setTimeout(function(){
+
+        document.getElementById(resultado).innerHTML = "";
+        },5000 );
+      }
+
+      removermensagem()
+      }
+    
+        
+    </script>
+    
+</body>
+</html>
